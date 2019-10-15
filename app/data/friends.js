@@ -28,7 +28,7 @@ var people = [{
             5,
             2,
             5,
-            5,
+            5
         ]
     },
     
@@ -45,7 +45,7 @@ var people = [{
             3,
             5,
             5,
-            4,
+            4
         ]
     },
     
@@ -62,7 +62,7 @@ var people = [{
             5,
             3,
             5,
-            2,
+            2
         ]
     },
     
@@ -79,7 +79,7 @@ var people = [{
             5,
             5,
             5,
-            1,
+            1
         ]
     },
     
@@ -96,7 +96,7 @@ var people = [{
             5,
             5,
             5,
-            5,
+            5
         ]
     },
     
@@ -113,7 +113,7 @@ var people = [{
             4,
             4,
             5,
-            5,
+            5
         ]
     },
     
@@ -130,7 +130,24 @@ var people = [{
             2,
             5,
             5,
-            5,
+            5
         ]
     },
+
+    {
+        name:"Sammy",
+        photo:"https://www.google.com/imgres?imgurl=https%3A%2F%2Fi2-prod.essexlive.news%2Fincoming%2Farticle3203008.ece%2FALTERNATES%2Fs615%2F0_Mark-Hill-The-Mane-Event-Photocall-LFW-September-2018.jpg&imgrefurl=https%3A%2F%2Fwww.essexlive.news%2Fnews%2Fessex-news%2Ftop-25-sexiest-women-essex-3202915&docid=nzR3AUXP1Ch40M&tbnid=auxbLCQ52DPMyM%3A&vet=10ahUKEwi90vO9oZ_lAhUNSq0KHc0fAEAQMwioASgdMB0..i&w=615&h=409&bih=625&biw=1366&q=woman&ved=0ahUKEwi90vO9oZ_lAhUNSq0KHc0fAEAQMwioASgdMB0&iact=mrc&uact=8",
+        scores:[
+            5,
+            3,
+            2,
+            5,
+            3,
+            5,
+            5,
+            3,
+            4,
+            4
+        ]
+    }
 ]
