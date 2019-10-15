@@ -146,7 +146,7 @@
     </div>
     <footer class="footer">
         <div class="container">
-            <a href="/api/friends.js">Friends List</a>
+            <a href="/api/people">Friends List</a>
         </div>
     </footer>
 
@@ -169,7 +169,7 @@
                  $("#question10").val().trim(),
                  ]
              };
-             $.post("/api/friends", answers)
+             $.post("/api/people", answers)
                 .then(funtion(data){
                     console.log(data);
                 });
