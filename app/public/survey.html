@@ -151,9 +151,9 @@
     </footer>
 
     <script type="text/javascript">
-        $("#done").on("click", funtion(event){
+        $("#done").on("click", function(event){
             
-            event.preventDefult()
+            event.preventDefault();
              var answers = {
                  name: $("#name").val().trim(),
                  photo: $("#picture").val().trim,
@@ -171,8 +171,8 @@
                  ]
              };
              $.post("/api/people", answers)
-                .then(funtion(data){
-                    console.log(data);
+                .then(function(data){
+                    
                 });
         });
         
