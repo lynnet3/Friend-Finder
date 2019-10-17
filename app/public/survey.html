@@ -150,9 +150,10 @@
         </div>
     </footer>
 
-    <script type="text/javascrit">
+    <script type="text/javascript">
         $("#done").on("click", funtion(event){
-            event.preventDefult();
+            
+            event.preventDefult()
              var answers = {
                  name: $("#name").val().trim(),
                  photo: $("#picture").val().trim,
