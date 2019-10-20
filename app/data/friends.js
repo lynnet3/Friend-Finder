@@ -152,3 +152,4 @@ var people = [
         ]
     }
 ]
+module.exports = friends;
