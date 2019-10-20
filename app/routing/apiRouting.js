@@ -31,8 +31,8 @@ module.exports = function (app) {
             }
         }
 
-        people.push(bestFriend, bestPic);
+        people.push(user);
 
-        res.render({});
+        res.render({bestFriend, bestPic});
     });
 };
