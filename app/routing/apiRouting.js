@@ -1,4 +1,4 @@
-var people = require("../data/friends");
+var people = require("../data/friends.js");
 
 module.exports = function (app) {
 
@@ -10,7 +10,6 @@ module.exports = function (app) {
 
         var user = req.body;
         var inputScore = user.scores;
-
         var minDifference = 40;
 
         for (var i = 0; i < inputScore.length; i++) {

@@ -4,12 +4,12 @@ var app = express()
 
 var PORT = process.env.PORT || 8080;
 
-app.use(express.static(path.join(__dirname, "./app/public")));
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
+ app.use(express.static(path.join(__dirname, "./app/public")));
+ app.use(express.urlencoded({ extended: true }));
+ app.use(express.json());
 
-require("./app/routing/apiRpouting")(app);
-require("./app/routing/htmlRouting")(app);
+ require("./app/routing/apiRouting.js")(app);
+ require("./app/routing/htmlRouting.js")(app);
 
 app.listen(PORT, function(){
     console.log("We are listening on PORT" + PORT);

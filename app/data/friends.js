@@ -152,4 +152,4 @@ var people = [
         ]
     }
 ]
-module.exports = friends;
+module.exports = people;
